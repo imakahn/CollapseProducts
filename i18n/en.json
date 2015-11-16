@@ -1,0 +1,7 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"collapseproducts-desc": "This is an example extension",
+	"collapseproducts-i18n-welcome": "Welcome to the localization file of the BoilerPlate extension."
+}

@@ -6,7 +6,7 @@
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:BoilerPlate",
 	"descriptionmsg": "collapseproducts-desc",
-	"license-name": "MIT",
+	"license-name": "GPL",
 	"type": "other",
 	"AutoloadClasses":{
 		"CollapseProductsHooks": "CollapseProducts.hooks.php"

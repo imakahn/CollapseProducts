@@ -1,47 +1,47 @@
 {
-	"name": "CollapseProducts",
-	"version": "0.0.1",
-	"author": [
-		"Andrew Kahn"
-	],
-	"url": "https://www.mediawiki.org/wiki/Extension:BoilerPlate",
-	"descriptionmsg": "collapseproducts-desc",
-	"license-name": "GPL",
-	"type": "other",
-	"AutoloadClasses":{
-		"CollapseProductsHooks": "CollapseProducts.hooks.php"
-	},
-	"config": {
-      "CollapseProductsSections": [ "Product_Links" ]
+    "name": "CollapseProducts",
+    "version": "0.0.1",
+    "author": [
+        "Andrew Kahn"
+    ],
+    "url": "https://www.mediawiki.org/wiki/Extension:BoilerPlate",
+    "descriptionmsg": "collapseproducts-desc",
+    "license-name": "GPL",
+    "type": "other",
+    "AutoloadClasses":{
+        "CollapseProductsHooks": "CollapseProducts.hooks.php"
     },
-	"ExtensionMessagesFiles": {},
-	"Hooks": {
-		"BeforePageDisplay": [
-			"CollapseProductsHooks::onBeforePageDisplay"
-		],
+    "config": {
+        "CollapseProductsSections": [ "Product_Links" ]
+    },
+    "ExtensionMessagesFiles": {},
+    "Hooks": {
+        "BeforePageDisplay": [
+            "CollapseProductsHooks::onBeforePageDisplay"
+        ],
         "ResourceLoaderGetConfigVars": [
             "CollapseProductsHooks::addJSVariables"
         ]
-	},
-	"MessagesDirs": {
-		"CollapseProducts": [
-			"i18n"
-		]
-	},
-	"ResourceModules": {
-		"ext.collapseProducts.foo": {
-			"scripts": [
-				"modules/ext.collapseProducts.js"
-			],
-			"styles": [],
-			"messages": [],
-			"dependencies": []
-		}
-	},
-	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteExtPath": "CollapseProducts"
-	},
-	"SpecialPages": {},
-	"manifest_version": 1
+    },
+    "MessagesDirs": {
+        "CollapseProducts": [
+            "i18n"
+        ]
+    },
+    "ResourceModules": {
+        "ext.collapseProducts.foo": {
+            "scripts": [
+                "modules/ext.collapseProducts.js"
+            ],
+            "styles": [],
+            "messages": [],
+            "dependencies": []
+        }
+    },
+    "ResourceFileModulePaths": {
+        "localBasePath": "",
+        "remoteExtPath": "CollapseProducts"
+    },
+    "SpecialPages": {},
+    "manifest_version": 1
 }

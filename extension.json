@@ -29,7 +29,7 @@
         ]
     },
     "ResourceModules": {
-        "ext.collapseProducts.foo": {
+        "ext.collapseProducts": {
             "scripts": [
                 "modules/ext.collapseProducts.js"
             ],

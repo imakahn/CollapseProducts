@@ -9,7 +9,7 @@
 class CollapseProductsHooks {
 
     public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ){
-        $out->addModules('ext.collapseProducts.foo');
+        $out->addModules('ext.collapseProducts');
     }
 
     public static function addJSVariables( &$vars ){

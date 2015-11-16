@@ -11,12 +11,17 @@
 	"AutoloadClasses":{
 		"CollapseProductsHooks": "CollapseProducts.hooks.php"
 	},
-	"config": {},
+	"config": {
+      "CollapseProductsSections": [ "Product_Links" ]
+    },
 	"ExtensionMessagesFiles": {},
 	"Hooks": {
 		"BeforePageDisplay": [
 			"CollapseProductsHooks::onBeforePageDisplay"
-		]
+		],
+        "ResourceLoaderGetConfigVars": [
+            "CollapseProductsHooks::addJSVariables"
+        ]
 	},
 	"MessagesDirs": {
 		"CollapseProducts": [
